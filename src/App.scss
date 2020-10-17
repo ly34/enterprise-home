@@ -1,0 +1,39 @@
+@import "./theme";
+
+.App {
+  text-align: center;
+  font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+@media (min-width: 992px) {
+  .main-content {
+    margin-top: -75px;
+  }
+}
+
+.row {
+  h3 {
+    margin-top: 20px;
+  }
+  padding: 80px 0;
+  img {
+    max-width: 100%;
+  }
+  .sub-title {
+    color: #757575;
+  }
+  .txt {
+    font-size: 20px;
+    text-align: left;
+    font-size: 24px;
+    color: #5f6464;
+    line-height: 54px;
+    margin: 0 30px;
+  }
+}
+
+section {
+  padding: 105px;
+  position: relative;
+}
