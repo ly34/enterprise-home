@@ -12,6 +12,24 @@ function App() {
       <div className="main-content">
         <SiteCarousel />
         <Container fluid={true}>
+        <Row className="justify-content-center">
+            <Col sm={7} className="align-self-center">
+              <h3>关于我们</h3>
+              <p className="sub-title">About Us</p>
+              <p className="txt">
+                四川光明四季环保科技有限公司与国内外工业企业、公共事务部门、各地政府携手并肩，共同应对愈加严峻的环境挑战，助其提升环境治理能力，从而打造碧水蓝天的人居环境。自成立以来，已为超过1000家机构提供环境治理相关咨询服务。
+              </p>
+              <p className="txt">
+                熟知环境标准与各地环保法律法规的人才队伍，专业的环境污染检测与污染治理技术，经济高效的服务模式是行业面临的主要挑战。公司基于国家和地方的法律法规，致力于前沿技术的研发，专业人才队伍的打造，专业服务能力的提升，为客户持续不断创造价值，并最终成为企业的成长伙伴。<a href="http://www.brightseasons.cn/h-col-103.html">了解更多&gt;&gt;</a>
+              </p>
+            </Col>
+            <Col sm={5} className="align-self-center">
+              <img
+                src="http://18549691.s61i.faiusr.com/2/AD0Iu5fsCBACGAAg5o314QUox4HurwMwuAc47AQ.jpg.webp"
+                alt=""
+              />
+            </Col>
+          </Row>
           <Row>
             <Col sm={12}>
               <h3>我们的优势</h3>
